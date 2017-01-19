@@ -1,6 +1,5 @@
-# Arch-Silence theme for GRUB2
-#
-# Copyright (C) 2015 Filippo Ghibellini
+# kokako-grub theme for GRUB2
+# based on Arch Silence by Filippo Ghibellini
 
 #general settings
 title-text: ""
@@ -27,11 +26,11 @@ terminal-border: "0"
     highlight_style = "progress_bar/progress_bar_hl_*.png"
 }
 
-# arch logo
+# kokako logo
 + image {
 	top = 50%-200
 	left = 50%-75
-    file = "arch_logo.png"
+    file = "kokako_logo.png"
 }
 
 #boot menu
